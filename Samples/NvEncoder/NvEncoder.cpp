@@ -900,7 +900,6 @@ int CNvEncoder::EncodeMain(int argc, char *argv[])
         if (encodeConfig.qpDeltaMapFile)
         {
             EncodeFrame(&stEncodeFrame, false, encodeConfig.width, encodeConfig.height, qpDeltaMap, qpDeltaMapSize);
-            cout << qpDeltaMapSize << " ";
         }
         else
         {

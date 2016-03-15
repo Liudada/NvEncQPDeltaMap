@@ -1089,9 +1089,6 @@ NVENCSTATUS CNvHWEncoder::NvEncEncodeFrame(EncodeBuffer *pEncodeBuffer, NvEncPic
     encPicParams.pictureStruct = ePicStruct;
     encPicParams.qpDeltaMap = qpDeltaMapArray;
     encPicParams.qpDeltaMapSize = qpDeltaMapArraySize;
-    if (qpDeltaMapArraySize)
-        printf("... ");
-
 
     if (encPicCommand)
     {
